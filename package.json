@@ -1,0 +1,22 @@
+{
+  "name": "javascript-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laualexandrar/Learning-JavaScript-Concepts.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Laura Roa <laura.alexandra.roa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laualexandrar/Learning-JavaScript-Concepts/issues"
+  },
+  "homepage": "https://github.com/laualexandrar/Learning-JavaScript-Concepts#readme"
+}
