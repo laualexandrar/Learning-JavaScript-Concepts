@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/laualexandrar/Learning-JavaScript-Concepts/issues"
   },
-  "homepage": "https://github.com/laualexandrar/Learning-JavaScript-Concepts#readme"
+  "homepage": "https://github.com/laualexandrar/Learning-JavaScript-Concepts#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
 }
