@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #4EA5AD;
+    --secondary-color:#DF73B0;
+    -ms-scrollbar-base-color: #FEE35F;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
