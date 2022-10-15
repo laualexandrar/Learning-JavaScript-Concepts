@@ -82,6 +82,7 @@ const data = {
     // $name.appendChild(name);
   }
 
+
   profileInfo();
   imagen();
   profileDescription();

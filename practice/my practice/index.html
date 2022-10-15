@@ -7,31 +7,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio</title>
 </head>
 <body>
   <header>
         <nav class="nav-bar">
             <ul class="nav-bar-list">
-                <li class="item">home</li>
-                <li class="item">projects</li>
-                <li class="item">achievements</li>
-                <li class="item">contact me</li>
+                <li class="item"><a href="#portfolio">Profile</a></li>
+                <li class="item"><a href="https://github.com/laualexandrar" target="_blank">GitHub</a></li>
+                <li class="item"><a href="#contact-info">Contact Me</a></li>
             </ul>
         </nav>
   </header>  
   <main class="main-container">
-    <h1>portfolio</h1>
-    <article>
-        <img src="./assets/images/LAu.png" alt="profile picturee">
-    </article>
-    <section>
-        <form action="" id="">
-            <input type="text">
-            <input type="text">
-            <button></button>
+    <section class="portfolio-info-container">
+        <h1 id="portfolio" class="title">Portfolio</h1>
+        <figure class="profile-image">
+            <img src="./assets/images/LAu.png" alt="profile picture">
+            <figcaption>Portfolio Image</figcaption>
+        </figure>
+    </section>
+    <section id="contact-info" class="contact-info-container">
+        <h2>Contact Me:</h2>
+        <form action="" id="" class="contact-me-data">
+            <label for="user-name" class="label">
+                <span>Name:</span>
+                <input id="user-name" type="text" placeholder="Name">
+            </label>
+            <label for="user-email" class="label">
+                <span>Email:</span>
+                <input id="user-email" type="text" placeholder="Email">
+            </label>
+            <button  type="submit" class="button"> 
+                SEND
+            </button>
         </form>
     </section>
-  </main>
+</main>
+<footer class="footer">
+    <div class="social-container">
+        <p>2022 My New Website</p>
+    </div>
+</footer>
 </body>
 </html>
