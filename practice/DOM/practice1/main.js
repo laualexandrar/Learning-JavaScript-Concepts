@@ -58,3 +58,11 @@ secondContainer.appendChild(button)
 const textButton = document.createTextNode('SEND');
 button.appendChild(textButton);
 button.setAttribute('class', 'send-button')
+
+const plansContainer = document.createElement('div');
+mainContainer.appendChild(plansContainer);
+plansContainer.setAttribute('class', 'plans-container');
+const titleInsidePlansContainer = document.createElement('h2');
+const textInsideH2 = document.createTextNode('these are the places you can visit:');
+plansContainer.appendChild(titleInsidePlansContainer);
+titleInsidePlansContainer.appendChild(textInsideH2);
